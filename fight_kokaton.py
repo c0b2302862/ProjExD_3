@@ -1,6 +1,3 @@
-
-
-
 import os
 import random
 import sys
@@ -12,7 +9,6 @@ WIDTH = 1600  # ゲームウィンドウの幅
 HEIGHT = 900  # ゲームウィンドウの高さ
 NUM_OF_BOMBS = 5
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-
 
 
 
@@ -156,7 +152,6 @@ class Score:
         self.img = self.fonto.render(f"スコア: {self.score}", 0, self.color)
         screen.blit(self.img, self.rct)
         
-
 
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
